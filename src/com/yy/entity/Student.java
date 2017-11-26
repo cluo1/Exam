@@ -10,8 +10,8 @@ public class Student {
 	private Integer result;
 	private String sclass;
 	public String getStudentID() {
-		
 		return studentID;
+		
 	}
 	public void setStudentID(String studentID) {
 		this.studentID = studentID;
