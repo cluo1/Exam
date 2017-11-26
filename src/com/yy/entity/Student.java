@@ -3,7 +3,6 @@ package com.yy.entity;
 /*
  * 学生表,保存学生编号，系统密码
  */
-
 public class Student {
 	private String studentID;
 	private String password;
@@ -11,6 +10,7 @@ public class Student {
 	private Integer result;
 	private String sclass;
 	public String getStudentID() {
+		System.out.println("test");
 		return studentID;
 	}
 	public void setStudentID(String studentID) {
