@@ -3,6 +3,7 @@ package com.yy.entity;
 /*
  * 学生表,保存学生编号，系统密码
  */
+
 public class Student {
 	private String studentID;
 	private String password;
