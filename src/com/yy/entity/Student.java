@@ -10,7 +10,6 @@ public class Student {
 	private Integer result;
 	private String sclass;
 	public String getStudentID() {
-		System.out.println("test");
 		return studentID;
 	}
 	public void setStudentID(String studentID) {
